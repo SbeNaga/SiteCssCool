@@ -1,0 +1,63 @@
+body
+{
+    margin: 0 auto;
+    padding: 0;
+    background: black;
+    color: white;
+}
+h1 
+{
+    margin: 0;
+    padding-top: 50%;
+    cursor: pointer;
+
+}
+h1:hover
+{
+    text-decoration:solid;
+    color: rgb(255, 0, 234);
+    cursor:crosshair;
+}
+.container
+{
+    margin: 0 auto;
+    width: 1000px;
+    height: 1000px;
+    color: black;
+    background: white;
+    text-align: center;
+    justify-content: center;
+    padding: top;
+}
+a
+{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+a:hover
+{
+    color: rgb(255, 0, 234);
+}
+header
+{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0;
+    border-bottom: 3px solid rgb(255, 0, 234) ;
+}   
+.navbar
+{
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+.navbar:hover
+{
+    border-bottom: 4px solid white;
+    color: white;
+    background-color: rgb(255, 0, 234);
+}
