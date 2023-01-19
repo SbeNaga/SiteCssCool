@@ -1,0 +1,139 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+    background: black;
+    color: white;
+    gap: 30px;
+    
+}
+header
+{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.25) ;
+}   
+.navbar
+{
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+.navbar:hover
+{
+    border-bottom: 4px solid white;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+a
+{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+a:hover
+{
+    color: rgba(255, 255, 255, 0.25);
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 30px;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.inputBox
+{
+    position: relative;
+    width: 250px;
+}
+.inputBox input
+{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background: black;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    font-size: 1em;
+}
+.inputBox .rot__ebal
+{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.25);
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.inputBox input:valid ~ .rot__ebal,
+.inputBox input:focus ~ .rot__ebal
+{
+    color: white;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.65em;
+    padding: 0 10px;
+    background: black;
+    border-left: 1px solid rgba(255, 255, 255, 0.25) ;
+    border-right: 1px solid rgba(255, 255, 255, 0.25) ;
+    letter-spacing: 0.2em;
+}
+#list
+ {
+    
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    list-style-type: none;
+    font-size: 18px;
+  
+}
+  #input
+  {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+  }
+  #list span 
+  {
+    margin-right: 10px;
+    justify-content: center;
+  }
+  #list .remove, #list .mark 
+  {
+    cursor: pointer;
+  }
+  #list .remove:hover, #list .mark:hover 
+  {
+    text-decoration: underline;
+  }
+  #list .done .task 
+  {
+    text-decoration: line-through;
+  }
+ button
+ {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    
+ }
